@@ -35,7 +35,6 @@ DOWNLOADED: 4609 - FOUND: 2
 - The lines starting with a + sign are the results of the scan. In this case, dirb was able to find two URLs:
   - http://fakebank.thm/bank-deposit
   - http://fakebank.thm/images
-- From this page, you should be able to add funds to your bank account (remember your bank account number is 8881). Let's add $2000 to it:
-If you managed to add $2000 or more to your account, you should be able to see your new balance reflected on your account page. Press the Return to Your Account button at the end of the deposit receipt to go there now and confirm you got the money!
-
+- From http://fakebank.thm/bank-deposit, we're able able to add funds to the bank account (bank account number: 8881).
+- Let's add $2000 to it: If you managed to add $2000 or more to your account, you should be able to see your new balance reflected on your account page.
 - Flag: `BANK-HACKED`
