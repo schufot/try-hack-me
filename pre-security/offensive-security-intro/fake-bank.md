@@ -31,10 +31,10 @@ END_TIME: Mon Sep  8 18:30:42 2025
 DOWNLOADED: 4609 - FOUND: 2
 ```
 
-- The first section of the output tells us the URL_BASE we scanned, which is just the URL we gave the tool. It also shows the location of the wordlist file used by the tool, which contains common page names that will be tested during the brute-force attack. In this case, the tool uses the default wordlist included with the tool, located at /usr/share/dirb/wordlists/common.txt.
-- The lines starting with a + sign are the results of the scan. In this case, dirb was able to find two URLs:
-  - http://fakebank.thm/bank-deposit
-  - http://fakebank.thm/images
-- From http://fakebank.thm/bank-deposit, we're able able to add funds to the bank account (bank account number: 8881).
-- Let's add $2000 to it: If you managed to add $2000 or more to your account, you should be able to see your new balance reflected on your account page.
+  - The first section of the output tells us the URL_BASE we scanned, which is just the URL we gave the tool. It also shows the location of the wordlist file used by the tool, which contains common page names that will be tested during the brute-force attack. In this case, the tool uses the default wordlist included with the tool, located at /usr/share/dirb/wordlists/common.txt.
+  - The lines starting with a + sign are the results of the scan. In this case, dirb was able to find two URLs:
+    - http://fakebank.thm/bank-deposit
+    - http://fakebank.thm/images
+  - From http://fakebank.thm/bank-deposit, we're able able to add funds to the bank account (bank account number: 8881).
+  - Let's add $2000 to it: If you managed to add $2000 or more to your account, you should be able to see your new balance reflected on your account page.
 - Flag: `BANK-HACKED`
