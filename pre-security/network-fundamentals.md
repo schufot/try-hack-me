@@ -14,7 +14,7 @@
   - Public IP address: Used to identify the device on the internet, given by the Internet Service Provider (ISP) at a monthly fee
   - Private IP address: Used to identify a device amongst other devices
   - Harder to get a public address that isn't already in use with IPv4 (uses a numbering system of 2³² IP addresses), IPv6 is a new iteration of the Internet Protocol (2¹²⁸ IP addresses)
-- MAC Addresses
+- MAC Addresses:
   - Devices on a network have a physical network interface (microchip board found on the device's motherboard), this network interface is assigned a unique address at the factory it was built at
   - 12 character hexadecimal number split into two's and separated by a colon (e.g. 'a4:c3:f0:85:ac:2d', first 6 characters represent the company that made the network interface, and the last 6 is a unique number)
   - Can be faked or spoofed (spoofing): Occurs when a networked device pretends to identify as another using its MAC address)
