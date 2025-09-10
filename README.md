@@ -6,6 +6,6 @@
 
 ### Introduction to Cyber Security
 
-### Offensive Security Intro
+#### Offensive Security Intro
 
-### Defensive Security Intro
+#### Defensive Security Intro
