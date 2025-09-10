@@ -9,3 +9,11 @@
 #### Offensive Security Intro
 
 #### Defensive Security Intro
+
+#### Careers in Cyber
+
+## Network Fundamentals
+
+### What is Networking?
+
+### Intro to LAN
